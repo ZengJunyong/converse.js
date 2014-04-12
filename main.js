@@ -62,7 +62,3 @@ require.config({
         'strophe.vcard':        { deps: ['strophe'] }
     }
 });
-
-require(["jquery", "converse"], function(require, $, converse) {
-    window.converse = converse;
-});
